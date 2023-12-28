@@ -4,4 +4,8 @@ label {
     display: inline-block;
     width: 8em;
     line-height: 150%;
+    }
+/* 課題仕様１エラー色の変更 */
+.err {
+    color: red;
 }
