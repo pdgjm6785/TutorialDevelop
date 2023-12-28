@@ -50,7 +50,7 @@ public class UserController {
         // 一覧画面にリダイレクト
         return "redirect:/user/list";
     }
-    // ----------- 課題仕様１の更新箇所ここから-----------
+    // ----------- 課題１の対象内容ここから-----------
     /** User更新画面を表示 */
     @GetMapping("/update/{id}/")
     public String getUser(@PathVariable("id") Integer id, Model model) {
@@ -79,7 +79,7 @@ public class UserController {
         // 一覧画面にリダイレクト
         return "redirect:/user/list";
     }
-    // ----------- 課題仕様１の更新箇所ここまで-----------
+    // ----------- 課題１の更新箇所ここまで-----------
     /** User削除処理 */
     @PostMapping(path="list", params="deleteRun")
     public String deleteRun(@RequestParam(name="idck") Set<Integer> idck, Model model) {

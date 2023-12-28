@@ -5,7 +5,8 @@ label {
     width: 8em;
     line-height: 150%;
     }
-/* 課題仕様１エラー色の変更 */
+/* 課題１用ここから */
 .err {
     color: red;
 }
+/* 課題１用ここまで */
