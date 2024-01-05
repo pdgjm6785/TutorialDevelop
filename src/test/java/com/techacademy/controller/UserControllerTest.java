@@ -87,10 +87,14 @@ class UserControllerTest {
         assertEquals(user1.getId(), 1);
         assertEquals(user1.getName(), "キラメキ太郎");
 
-        User user2 = userlist.get(1);
         // user2の検証を追加
+        User user2 = userlist.get(1);
+        assertEquals(user2.getId(), 2);
+        assertEquals(user2.getName(), "キラメキ次郎");
 
+     // user3の検証を追加
         User user3 = userlist.get(2);
-        // user3の検証を追加
+        assertEquals(user3.getId(), 3);
+        assertEquals(user3.getName(), "キラメキ花子");
     }
 }
